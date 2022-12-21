@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue May 19 14:21:54 2020
-@author: Robinson Montes
+Created on Dec 20 2022
+@author: JSPlacid
 """
 
 class Square:
@@ -19,9 +19,10 @@ class Square:
         self.__size = size
 
     @property
+
     def size(self):
         """Call the function to checking property
-        Returns: 
+        Returns:
             The size of the square
         """
         return self.__size
