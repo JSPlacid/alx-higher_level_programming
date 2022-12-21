@@ -21,7 +21,8 @@ class Square:
     @property
     def size(self):
         """Call the function to checking property
-        Returns: The size of the square
+        Returns: 
+            The size of the square
         """
         return self.__size
 
