@@ -1,50 +1,50 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
-"""
-Created on Dec 20 2022
-@author: JSPlacid
-"""
+"""Square class to represent a square"""
 
 class Square:
-    """Class Square that has attributes. Instantiation with size
-    Attributes:
-        size (int): The size of the square
+    """
+    Defines a Square and its basic properties
+    >>> square_1 = Square()
+    >>> square_2 = Square(7)
     """
 
-    def __init__(self, size=0):
-        """The __init__ method for Square class
-        Args:
-            size: (:obj: 'int', optional): A private instance size
+    def __init__(self, size=0) -> None:
         """
+        Innitialize the size of the square. the size can be specified.
+        If they are not, the size defaults to 0
+        :param size: int size of square ( > 0)
+        """
+        if (type(size) is not int):
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
+
         self.__size = size
 
     @property
-    def size(self):
-        """Call the function to checking property
-        Returns:
-            The size of the square
+    def size(self) -> int:
+        """
+        Retrieve the instance attribute size
+        :return: the size of the square
         """
         return self.__size
 
     @size.setter
-    def size(self, value):
-        """check errors and setter for size attribute
-        Args:
-            value: Value to checking errors
-        Raises:
-            TypeError: Exception if size is not an integer
-            ValueError: Exception if size is less than 0
+    def size(self, value: int) -> None:
         """
-        if type(value) is not int:
+        Set the value of the size
+        :param: int size
+        """
+        if (type(value) is not int):
             raise TypeError("size must be an integer")
-        elif value < 0:
+        elif (value < 0):
             raise ValueError("size must be >= 0")
-        else:
-            self.__size = value
+        self.__size = value
 
-    def area(self):
-        """Calculates the area of the square
-        Returns:
-            The area of the square
+    def area(self) -> int:
         """
+        Calculates and returns the area of the square
+        :return: the area of the square
+        """
+
         return self.__size ** 2
