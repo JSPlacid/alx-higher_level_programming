@@ -7,7 +7,7 @@ Author: Olusegun Ojo (JSPlacid)
 Date Created: Dec 20 2022
 """
 
-class Square():
+class Square:
     """
     This is an empty class square that does nothing.
     """
