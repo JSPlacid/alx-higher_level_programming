@@ -1,14 +1,16 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 19 14:21:54 2020
+@author: JSPlacid
+"""
 
-"""
-File: 0-square.py
-Desc: This contains a single empty class defination.
-Author: Olusegun Ojo (JSPlacid)
-Date Created: Dec 20 2022
-"""
+
+
 
 class Square:
-    """
-    This is an empty class square that does nothing.
+    """Empty class Square that defines a square
+    Attributes:
+        empty
     """
     pass
