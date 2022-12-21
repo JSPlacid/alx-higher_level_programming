@@ -6,8 +6,7 @@ Created on Tue May 19 14:21:54 2020
 """
 
 
-
-
 class Square:
-    #Empty class Square that defines a square
+    """Empty class Square that defines a square
+    """
     pass
