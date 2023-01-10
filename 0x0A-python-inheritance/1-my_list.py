@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-
-# -*- coding: utf-8 -*-
+'''Module: 1-my_list'''
 
 class MyList(list):
     """
