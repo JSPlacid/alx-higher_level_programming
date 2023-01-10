@@ -8,4 +8,5 @@ def lookup(obj):
     Args:
         obj (any): object whose attributes and methods are to be returned
     """
+    
     return (dir(obj))
