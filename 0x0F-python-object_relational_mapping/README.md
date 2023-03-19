@@ -13,7 +13,7 @@ Resources
 Read or watch:
 
 [Object-relational mappers](https://intranet.alxswe.com/rltoken/a8DUOWhXpNX3TEwgyT-U8A)  
-[mysqlclient/MySQLdb documentation (please don’t pay attention to _mysql)](https://intranet.alxswe.com/rltoken/JtFaKjnqxudr6Hi05Us1Lw)  
+[mysqlclient/MySQLdb documentation](https://intranet.alxswe.com/rltoken/JtFaKjnqxudr6Hi05Us1Lw)(please don't pay attention to my_SQL)  
 [MySQLdb tutorial](https://intranet.alxswe.com/rltoken/TdUSYFNGbXJG1WjCEoq5FA)  
 [SQLAlchemy tutorial](https://intranet.alxswe.com/rltoken/YyL5hsscviNH04XGW-XpfA)  
 [SQLAlchemy](https://intranet.alxswe.com/rltoken/j9azWF2Db_2rNolTxOF3SA)  
