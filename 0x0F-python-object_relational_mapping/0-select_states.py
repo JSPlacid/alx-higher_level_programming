@@ -17,3 +17,5 @@ if __name__ == "__main__":
     c.execute("SELECT * FROM `states`")
     [print(state) for state in c.fetchall()]
 
+    c.close()
+    db.close()
