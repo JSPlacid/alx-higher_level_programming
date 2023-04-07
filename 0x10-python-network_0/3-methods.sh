@@ -1,4 +1,3 @@
 #!/bin/bash
-# Script that takes in a URL and displays all HTTP methods the server will accept
-curl -sI "$1" | grep -i "Allow" | awk -F ": " '{ print $2 }'
-
+# Display the Allow variable header after Option request
+curl -sI -X OPTIONS "$1" | grep -i Allow | cut --complement -d ' ' -f 1
